@@ -1,0 +1,278 @@
+body {
+    background-color: #adabaa;
+    background-image: url(IMG/Leaf.jpg);
+    color: rgb(49 53 52);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat:repeat;
+    background-attachment:fixed;
+    overflow:scroll;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+    
+body::-webkit-scrollbar {
+    display: none;
+}
+/* h's     background-image: url(IMG/static.jpg); */
+h1 {
+    color: rgb(248, 248, 248);
+    position: relative;
+    text-justify: center;
+    text-align: center;
+    top: 160px;
+    display: inline-block;
+    align-items: center;
+}
+
+h1In{
+    color: #e6e6e6;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 39%;
+    font-weight: bold;
+}
+
+h2 {
+    color:rgb(0, 204, 255);
+    position: relative;
+    text-justify: center;
+    text-align: center;
+    top: 160px;
+    -webkit-text-stroke: 1px black; /* width and color */
+}
+
+h3 {
+    color:rgb(252, 252, 252);
+    position: relative;
+    text-justify: center;
+    top: 160px;
+}
+
+h3In{
+    color: #ffffff;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin-left: 39%;
+    margin-top: 1%;
+}
+
+h4{
+    color:rgb(253, 253, 253);
+    position: relative;
+    text-align: center;
+    top: 500px;
+    -webkit-text-stroke: 1px black; /* width and color */
+}
+/* p */
+p {
+    text-align: center;
+
+    position:relative;
+
+    color:rgb(0, 204, 255);
+    position: relative;
+    text-justify: center;
+    top: 160px;
+    -webkit-text-stroke: 1px black; /* width and color */
+}
+
+p2{
+    text-align:center;
+
+    position:relative;
+    top: 200px;
+    color:rgb(0, 204, 255);
+    position: relative;
+    text-justify: center;
+    text-align: center;
+    top: 160px;
+    -webkit-text-stroke: 1px black; /* width and color */
+}
+
+p3{
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(0, 204, 255);
+    position: relative;
+    text-justify: center;
+    text-align: center;
+    top: 160px;
+    -webkit-text-stroke: 1px black; /* width and color */
+}
+/* other */
+li {
+    color: rgb(255, 255, 255);
+}
+
+img {
+    border: 2px solid #000000;
+}
+
+td{
+    padding: 2%;
+}
+
+tr{
+    padding: 2%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    top: 150px;
+}
+
+video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    top: 150px;
+}
+/* div */
+
+.IndexIntro{
+    margin-left: 10%;
+}
+
+.title {
+    text-align: center;
+  }
+
+.introduce{
+    margin-left: 20%;
+}
+
+.video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    top: 150px;
+}
+
+a.button3{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#ffffff;
+    text-align:center;
+    transition: all 0.2s;
+    }
+    a.button3:hover{
+        color:#ffffff4b;
+        background-color:#ffffff4f;
+    }
+    @media all and (max-width:30em){
+    a.button3{
+        display:block;
+        margin:0.4em auto;
+    }
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    display:inline-block;
+    background-color: #555;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    }
+    a.dropbtn:hover{
+        color:#000000;
+        background-color:#FFFFFF;
+    }
+    @media all and (max-width:30em){
+    a.dropbtn{
+        display:block;
+        margin:0.4em auto;
+    }
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  .dropdown-content a:hover {background-color: rgba(255, 255, 255, 0);}
+  
+
+  .dropdown:hover .dropdown-content {display: block;}
+  
+
+  .dropdown:hover .dropbtn {background-color: #ffffff;}
+
+  /* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+
